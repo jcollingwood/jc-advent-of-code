@@ -9,10 +9,10 @@ class Day5Test {
     companion object {
         @JvmStatic
         fun testCases() = listOf(
-            SolutionTestCase(2024, 5, 1, true, 0),
-//            SolutionTestCase(2024, 5, 1, false, 0),
-//            SolutionTestCase(2024, 5, 2, true, 0),
-//            SolutionTestCase(2024, 5, 2, false, 0)
+            SolutionTestCase(2024, 5, 1, true, 143),
+            SolutionTestCase(2024, 5, 1, false, 5248),
+            SolutionTestCase(2024, 5, 2, true, 123),
+            SolutionTestCase(2024, 5, 2, false, 0)
         )
     }
 
