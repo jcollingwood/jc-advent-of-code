@@ -1,5 +1,6 @@
 package year2024
 
+import Solution
 import org.junit.jupiter.api.Assertions.assertEquals
 
 data class SolutionTestCase(

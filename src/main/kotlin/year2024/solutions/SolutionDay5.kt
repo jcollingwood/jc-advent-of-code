@@ -1,5 +1,7 @@
 package year2024.solutions
 
+import Solution
+
 class SolutionDay5 : Solution {
     data class OrderRule(val before: Int, val after: Int)
     data class ParsedInput(val rules: List<OrderRule>, val updates: List<List<Int>>)
@@ -30,7 +32,7 @@ class SolutionDay5 : Solution {
             if (!(before == null || after == null) && before >= after) {
                 updateMap[r.after] = before + 1
             }
-        }
+       }
 
         return updateMap.toSortedMap().map { it.key }.toList()
     }

@@ -1,5 +1,7 @@
 package year2024.solutions
 
+import Solution
+
 class SolutionDay4 : Solution {
     companion object {
         val XMAS_LETTERS = listOf('X', 'M', 'A', 'S')

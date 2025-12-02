@@ -1,5 +1,7 @@
 package year2024.solutions
 
+import Solution
+
 class SolutionDay3 : Solution {
     val mulRegex = "(mul\\([0-9]{1,3},[0-9]{1,3}\\))".toRegex()
     val mulPartsRegex = "mul\\(([0-9]{1,3}),([0-9]{1,3})\\)".toRegex()

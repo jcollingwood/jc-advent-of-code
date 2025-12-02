@@ -1,5 +1,6 @@
 package year2024.solutions
 
+import Solution
 import kotlin.math.absoluteValue
 
 class SolutionDay2 : Solution {
